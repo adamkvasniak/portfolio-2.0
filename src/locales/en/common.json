@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "subtitle": "Hello!",
+    "name": "I'm Adam Kvasniak",
+    "title": "Full-Stack Developer",
+    "text": "I'm creating fast, modern, and scalable web experiences. Turning lines of code into smooth user journeys.",
+    "viewWork": "View My Work",
+    "aboutMe": "About me",
+    "stats": {
+      "projects": { "number": "10+", "label": "Web Projects Built" },
+      "experience": { "number": "3+", "label": "Years of Experience" },
+      "clients": { "number": "4+", "label": "Happy Clients" }
+    }
+  },
+  "topbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Download Resume"
+  },
+  "offer": {
+    "about": {
+      "title": "About Me",
+      "text": "I'm a web developer who loves when things work perfectly and look even better. I'm passionate about building websites that combine logic, creativity, and a focus on modern web design. Using technologies like Next.js, React, and Node.js, I create fast, reliable, and modern digital solutions. Every project is a challenge I take from concept to hosting and deployment, because true custom web development starts with understanding the details that make the difference.",
+      "button": "View My Work"
+    },
+    "whatIOffer": {
+      "title": "What I Offer",
+      "text": "From concept to launch, I help you build fast, modern, and user-focused digital experiences.",
+      "services": [
+        "Web Development",
+        "UI/UX Design",
+        "Hosting & Deployment",
+        "Maintenance & Support"
+      ],
+      "closing": "Let's turn your ideas into a powerful online presence."
+    }
+  },
+  "featured": {
+    "title": "Featured Projects",
+    "subtitle": "A selection of my recent work — where creativity meets functionality.",
+    "projects": [
+      { "name": "Bhakta Builders", "image": "/projects/bhakta.webp", "link": "https://promax.com" },
+      { "name": "Digem", "image": "/projects/digem.webp", "link": "https://visualdesigner.com" },
+      { "name": "Vesele Stolky", "image": "/projects/stolky.webp", "link": "https://.com" },
+      { "name": "Portfolio", "image": "/projects/portfolio.webp", "link": "https://digifin.io" }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "fields": {
+      "name": "Name:",
+      "email": "Email:",
+      "message": "Message:",
+      
+      "honeypot": "Website (leave empty):"
+    },
+    "messages": {
+      "sent": "Message sent!",
+      "error": "Error sending message.",
+      "bot": "Bot detected.",
+      "limit": "Too many requests. Try again later.",
+      "invalid": "Please fill in all required fields."
+    },
+    "button": "Send Message",
+    "imageAlt": "Person working at laptop"
+  },
+    "footer": {
+    "header": {
+      "title": "Let's Build <br /><span>Something Awesome</span>",
+      "text": "Whether you want to discuss a new project, collaborate, or just say hi — my inbox is always open."
+    },
+    "copyright": "© 2025 All Rights Reserved"
+  }
+}

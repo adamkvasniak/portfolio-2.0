@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "subtitle": "Ahoj!",
+    "name": "Som Adam Kvasniak",
+    "title": "Full-Stack Developer",
+    "text": "Tvorím rýchle a moderné  webové riešenia. Premieňam riadky kódu na zážitky.",
+    "viewWork": "Zobraziť projekty",
+    "aboutMe": "O mne",
+    "stats": {
+      "projects": { "number": "10+", "label": "Webové projekty" },
+      "experience": { "number": "3+", "label": "Roky skúseností" },
+      "clients": { "number": "4+", "label": "Spokojní klienti a partneri" }
+    }
+  },
+    "topbar": {
+    "home": "Domov",
+    "about": "O mne",
+    "projects": "Projekty",
+    "contact": "Kontakt",
+    "resume": "Stiahnuť životopis"
+  },
+  "offer": {
+    "about": {
+      "title": "O mne",
+      "text": "Som webový vývojár, ktorý miluje, keď veci fungujú dobre a vyzerajú ešte lepšie. Baví ma tvorba webových stránok, kde sa stretáva logika s kreativitou a dôrazom na moderný web dizajn. Využívam technológie ako Next.js, React a Node.js, aby som priniesol rýchle, spoľahlivé a moderné digitálne riešenia. Každý projekt beriem ako výzvu – od návrhu až po hosting a nasadenie, pretože verím, že skutočný vývoj webu na mieru začína pochopením detailov, ktoré robia rozdiel.",
+      "button": "Zobraziť projekty"
+    },
+    "whatIOffer": {
+      "title": "Čo ponúkam",
+      "text": "Od konceptu po spustenie vám pomôžem vytvoriť rýchle, moderné a používateľsky orientované digitálne zážitky.",
+      "services": [
+        "Webový vývoj",
+        "UI/UX dizajn",
+        "Hosting a nasadenie",
+        "Údržba a podpora"
+      ],
+      "closing": "Premeníme vaše nápady na silnú online prítomnosť."
+    }
+  },
+  "featured": {
+    "title": "Vybrané projekty",
+    "subtitle": "Ukážka mojej najnovšej práce — kde sa spája kreativita a funkčnosť.",
+    "projects": [
+      { "name": "Promax Eyewear", "image": "/projects/bhakta.png", "link": "https://promax.com" },
+      { "name": "Vizualny dizajnér", "image": "/projects/digem.png", "link": "https://visualdesigner.com" },
+      { "name": "Zmysluplné zážitky", "image": "/projects/stolky.png", "link": "https://.com" },
+      { "name": "Digifin Aplikácia", "image": "/projects/portfolio.png", "link": "https://digifin.io" }
+    ]
+  },
+  "contact": {
+    "title": "Napíš mi",
+    "fields": {
+      "name": "Meno:",
+      "email": "Email:",
+      "message": "Správa:",
+      "honeypot": "Webstránka (nechaj prázdne):"
+    },
+    "messages": {
+      "sent": "Správa odoslaná!",
+      "error": "Chyba pri odosielaní správy.",
+      "bot": "Bol zistený bot.",
+      "limit": "Príliš veľa požiadaviek. Skúste znova neskôr.",
+      "invalid": "Zle údaje – vyplň všetky polia."
+    },
+    "button": "Odoslať správu",
+    "imageAlt": "Osoba pracujúca na notebooku"
+  },
+  "footer": {
+    "header": {
+      "title": "Poďme spolu <br /><span>vytvoriť niečo úžasné</span>",
+      "text": "Či už chceš diskutovať o novom projekte, spolupráci, alebo sa len ozvať — moja schránka je vždy otvorená."
+    },
+    "copyright": "© 2025 Všetky práva vyhradené"
+  }
+}

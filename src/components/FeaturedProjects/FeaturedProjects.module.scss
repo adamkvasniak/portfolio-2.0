@@ -1,0 +1,72 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.featuredProjects {
+  width: 100%;
+  padding: 6rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+}
+
+.header {
+  margin-bottom: 3rem;
+  text-align: center;
+
+  h2 {
+    @include header();
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    @include text();
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.card {
+    border-radius: $border-radius-browser;
+    @include glow();
+}
+
+.projectImage {
+  object-fit: cover;
+  width: 100%;
+    height: auto;
+  border-radius: 24px;
+}
+
+@media (max-width: 1222px) {
+ .projectImage {
+  width: 512px;
+  height: 287px;
+}
+}
+
+@media (max-width: 980px) {
+ .featuredProjects {
+    width: 100%;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+}
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .projectImage {
+    width: 100%;
+    height: auto;
+  }
+}

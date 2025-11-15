@@ -1,0 +1,16 @@
+.flagBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  .flag {
+    border-radius: 3px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}

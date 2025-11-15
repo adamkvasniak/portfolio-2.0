@@ -1,0 +1,70 @@
+// Header style
+@mixin header($min: 30px, $max: 80px) {
+  font-family:  'JetBrains Mono', monospace;
+  font-size: 60px;
+  color: $primary-color;
+  margin-bottom: 1rem;
+  &:hover {
+    background-position: 100%;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+}
+
+// Normal text
+@mixin text {
+  font-family: $font-body;
+  font-size: 1rem;
+  color: $text-color;
+  line-height: 1.6;
+  
+}
+
+// Solid button
+@mixin button($bg: $primary-color, $color: $primary-color) {
+  background-color: $bg;
+  color: $color;
+  font-size: $button-font-size;
+  border: none;
+  border-radius: 110px;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  &:hover {
+    background-color: darken($bg, 8%);
+  }
+  @media (max-width: 768px) {
+    padding: 9px 15px;
+  }
+}
+
+// Transparent button
+@mixin button-transparent($color: $primary-color) {
+  background-color: $transparent;
+  color: $color;
+  font-size: $button-font-size;
+  border: 2px solid $color;
+  border-radius: 110px;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  &:hover {
+    background-color: $color;
+    color: black;
+  }
+}
+
+@mixin glow() {
+   position: relative;
+  
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 255, 153, 0.3);
+  }
+}
