@@ -52,7 +52,8 @@ export default function SEOHead() {
             : "https://www.adamkvasniak.com/"
         }
       />
-      <meta property="og:image" content="/preview.jpg" />
+      <meta property="og:image" content="/logo.png" />
+      <meta name="twitter:image" content="/logo.png" />
     </Head>
   );
 }

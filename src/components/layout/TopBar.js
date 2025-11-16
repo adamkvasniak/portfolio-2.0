@@ -37,7 +37,18 @@ export default function TopBar() {
 
   return (
     <header className={styles.topbar}>
-      <div className={styles.logo}>AK</div>
+      <div
+        className={styles.logo}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        <Image
+          src="/logo.png"
+          alt="Adam Kvasniak Logo"
+          width={40}
+          height={40}
+          priority
+        />
+      </div>
 
       <nav className={`${styles.nav} ${menuOpen ? styles.open : ""}`}>
         {["home", "about", "projects", "contact"].map((id) => (
