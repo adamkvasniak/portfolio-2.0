@@ -57,9 +57,12 @@
   background: rgba(0, 255, 153, 0.15);
 }
 
-.waBtn {
-  
+.waBtn { 
   @include button($bg: $primary-color, $color: black);
+}
+.waBtnMobile { 
+  @include button($bg: $primary-color, $color: black);
+  max-width: 52px;
 }
 
 

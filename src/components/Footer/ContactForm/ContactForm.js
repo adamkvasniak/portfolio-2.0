@@ -121,7 +121,7 @@ export default function ContactForm() {
 
         <div className={styles.imageWrapper}>
           <Image
-            src="/hero.png"
+            src="/hero.webp"
             alt={t("contact.imageAlt")}
             width={420}
             height={440}

@@ -67,8 +67,19 @@ export default function TopBar() {
           <div className={styles.switchWrapper}>
             <LanguageSwitcher />
           </div>
-          <a href="/resume.pdf" className={styles.resumeBtn} download>
-            {t("topbar.resume")}
+          <a
+            href="https://wa.me/421911690230"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.waBtnMobile}
+          >
+            <Image
+              src="/icons/whatsapp.webp"
+              alt="WhatsApp"
+              width={24}
+              height={24}
+              className={styles.waImg}
+            />
           </a>
         </div>
       </nav>

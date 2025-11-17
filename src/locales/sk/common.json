@@ -41,10 +41,10 @@
     "title": "Vybrané projekty",
     "subtitle": "Ukážka mojej najnovšej práce — kde sa spája kreativita a funkčnosť.",
     "projects": [
-      { "name": "Promax Eyewear", "image": "/projects/bhakta.png", "link": "https://promax.com" },
-      { "name": "Vizualny dizajnér", "image": "/projects/digem.png", "link": "https://visualdesigner.com" },
-      { "name": "Zmysluplné zážitky", "image": "/projects/stolky.png", "link": "https://.com" },
-      { "name": "Digifin Aplikácia", "image": "/projects/portfolio.png", "link": "https://digifin.io" }
+      { "name": "Bhakta Builders", "image": "/projects/bhakta.webp", "link": "https://bhaktabuilders.com" },
+      { "name": "Digem", "image": "/projects/digem.webp", "link": "https://app.digem.cz" },
+      { "name": "Vesele Stolky", "image": "/projects/stolky.webp", "link": "https://veselestolky.sk" },
+      { "name": "Portfolio", "image": "/projects/portfolio.webp", "link": "https://digifin.io" }
     ]
   },
   "contact": {
