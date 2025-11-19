@@ -32,7 +32,9 @@ export default function OfferSection() {
         <div className={styles.text}>
           <h2>{t("offer.about.title")}</h2>
           <p>{t("offer.about.text")}</p>
-          <button className={styles.button}>{t("offer.about.button")}</button>
+          <a href="#projects" className={styles.button}>
+            {t("offer.about.button")}
+          </a>
         </div>
       </div>
 
@@ -45,7 +47,6 @@ export default function OfferSection() {
             {Array.isArray(services) &&
               services.map((item, i) => <li key={i}>{item}</li>)}
           </ul>
-          <p>{t("offer.whatIOffer.closing")}</p>
         </div>
 
         <div className={styles.imageWrapper}>
