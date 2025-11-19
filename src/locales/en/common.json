@@ -41,9 +41,9 @@
     "title": "Featured Projects",
     "subtitle": "A selection of my recent work — where creativity meets functionality.",
     "projects": [
-      { "name": "Bhakta Builders", "image": "/projects/bhakta.webp", "link": "https://promax.com" },
-      { "name": "Digem", "image": "/projects/digem.webp", "link": "https://visualdesigner.com" },
-      { "name": "Vesele Stolky", "image": "/projects/stolky.webp", "link": "https://.com" },
+      { "name": "Bhakta Builders", "image": "/projects/bhakta.webp", "link": "https://bhaktabuilders.com" },
+      { "name": "Digem", "image": "/projects/digem.webp", "link": "https://app.digem.cz" },
+      { "name": "Vesele Stolky", "image": "/projects/stolky.webp", "link": "https://veselestolky.sk" },
       { "name": "Portfolio", "image": "/projects/portfolio.webp", "link": "https://digifin.io" }
     ]
   },
