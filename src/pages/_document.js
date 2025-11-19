@@ -28,6 +28,8 @@ export default function Document() {
 
         {/* Manifest (optional) */}
         <link rel="manifest" href="/site.webmanifest" />
+        <meta name="color-scheme" content="dark" />
+        <meta name="supported-color-schemes" content="dark"></meta>
       </Head>
       <body>
         <Main />
