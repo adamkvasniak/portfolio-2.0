@@ -30,6 +30,12 @@ export default function Document() {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="color-scheme" content="dark" />
         <meta name="supported-color-schemes" content="dark"></meta>
+        <script
+          src="https://cdn.counter.dev/script.js"
+          data-id="e6dcf11a-fbb9-4b99-ac7a-274662663aa2"
+          data-utcoffset="1"
+          defer
+        ></script>
       </Head>
       <body>
         <Main />
