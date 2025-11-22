@@ -54,6 +54,18 @@ export default function SEOHead() {
       />
       <meta property="og:image" content="/logo.png" />
       <meta name="twitter:image" content="/logo.png" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            url: "https://www.adamkvasniak.com",
+            name: "Adam Kvasniak",
+            logo: "https://www.adamkvasniak.com/logo.png",
+          }),
+        }}
+      />
     </Head>
   );
 }
