@@ -22,7 +22,23 @@ export default function HeroBanner() {
         <h1 className={styles.name}>{t("hero.name")}</h1>
         <h1 className={styles.title}>{t("hero.title")}</h1>
         <p className={styles.text}>{t("hero.text")}</p>
-
+        //     kktiny
+        <h1 className={styles.name}>{t("hero.name")}</h1>
+        <h1 className={styles.title}>{t("hero.title")}</h1>
+        <p className={styles.text}>{t("hero.text")}</p>
+               <p className={styles.subtitle}>{t("hero.subtitle")}</p>
+        <h1 className={styles.name}>{t("hero.name")}</h1>
+        <h1 className={styles.title}>{t("hero.title")}</h1>
+        <p className={styles.text}>{t("hero.text")}</p>
+               <p className={styles.subtitle}>{t("hero.subtitle")}</p>
+        <h1 className={styles.name}>{t("hero.name")}</h1>
+        <h1 className={styles.title}>{t("hero.title")}</h1>
+        <p className={styles.text}>{t("hero.text")}</p>
+               <p className={styles.subtitle}>{t("hero.subtitle")}</p>
+        <h1 className={styles.name}>{t("hero.name")}</h1>
+        <h1 className={styles.title}>{t("hero.title")}</h1>
+        <p className={styles.text}>{t("hero.text")}</p>
+    //// kktiny
         <div className={styles.buttonsContainer}>
           <a href="#about" className={styles.button}>
             {t("hero.aboutMe")}
