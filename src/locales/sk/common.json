@@ -2,8 +2,8 @@
   "hero": {
     "subtitle": "Ahoj!",
     "name": "Som Adam Kvasniak",
-    "title": "Full-Stack Developer",
-    "text": "Tvorím rýchle a moderné  webové riešenia. Premieňam riadky kódu na zážitky.",
+    "title": "Tvorím weby, ktoré prinášajú klientov",
+    "text": "Webové a softvérové riešenia, ktoré zlepšujú prezentáciu, šetria čas a pomáhajú rásť.",
     "viewWork": "Zobraziť projekty",
     "aboutMe": "O mne",
     "stats": {
@@ -22,19 +22,18 @@
   "offer": {
     "about": {
       "title": "O mne",
-      "text": "Som webový vývojár, ktorý miluje, keď veci fungujú dobre a vyzerajú ešte lepšie. Baví ma tvorba webových stránok, kde sa stretáva logika s kreativitou a dôrazom na moderný web dizajn. Využívam technológie ako Next.js, React a Node.js, aby som priniesol rýchle, spoľahlivé a moderné digitálne riešenia. Každý projekt beriem ako výzvu – od návrhu až po hosting a nasadenie, pretože verím, že skutočný vývoj webu na mieru začína pochopením detailov, ktoré robia rozdiel.",
+      "text": "Pomáham firmám a jednotlivcom vytvárať softvérové riešenia, ktoré im zjednodušujú prácu, zlepšujú prezentáciu a podporujú rast. Zameriavam sa na praktické výsledky – riešenia, ktoré dávajú zmysel a fungujú v reálnom svete.",
       "button": "Zobraziť projekty"
     },
     "whatIOffer": {
-      "title": "Čo ponúkam",
-      "text": "Od konceptu po spustenie vám pomôžem vytvoriť rýchle, moderné a používateľsky orientované digitálne zážitky.",
-      "services": [
-        "Webový vývoj",
-        "UI/UX dizajn",
-        "Hosting a nasadenie",
-        "Údržba a podpora"
-      ],
-      "closing": "Premeníme vaše nápady na silnú online prítomnosť."
+      "title": "Čo získate v praxi",
+      "text": "Vytvorím vám web alebo aplikáciu, ktorá pôsobí profesionálne, načítava sa rýchlo a nerobí hanbu vašej značke.",
+      "items": [
+          "Viac klientov, ktorí vám prinesú peniaze",
+          "Profesionálna prezentácia, ktorá pôsobí dôveryhodne",
+          "Web, ktorý vás posunie pred konkurenciu"
+        ],
+      "closing": "Nie experiment. Funkčný online produkt, ktorý môžete normálne používať."
     }
   },
   "featured": {

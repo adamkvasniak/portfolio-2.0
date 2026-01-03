@@ -2,8 +2,8 @@
   "hero": {
     "subtitle": "Hello!",
     "name": "I'm Adam Kvasniak",
-    "title": "Full-Stack Developer",
-    "text": "I'm creating fast, modern, and scalable web experiences. Turning lines of code into smooth user journeys.",
+    "title": "I build websites that bring customers",
+    "text": "Web and software solutions that improve presentation, save time, and help businesses grow.",
     "viewWork": "View My Work",
     "aboutMe": "About me",
     "stats": {
@@ -22,20 +22,19 @@
   "offer": {
     "about": {
       "title": "About Me",
-      "text": "I'm a web developer who loves when things work perfectly and look even better. I'm passionate about building websites that combine logic, creativity, and a focus on modern web design. Using technologies like Next.js, React, and Node.js, I create fast, reliable, and modern digital solutions. Every project is a challenge I take from concept to hosting and deployment, because true custom web development starts with understanding the details that make the difference.",
+      "text": "I help businesses and individuals build software solutions that simplify work, improve presentation, and support growth. I focus on practical results — solutions that make sense and work in the real world.",
       "button": "View My Work"
     },
     "whatIOffer": {
-      "title": "What I Offer",
-      "text": "From concept to launch, I help you build fast, modern, and user-focused digital experiences.",
-      "services": [
-        "Web Development",
-        "UI/UX Design",
-        "Hosting & Deployment",
-        "Maintenance & Support"
+      "title": "What you gain",
+      "text": "I build websites and apps that look professional, load fast, and don’t damage your credibility.",
+      "items": [
+        "More clients that turn into revenue",
+        "A professional presentation people trust",
+        "A website that keeps you ahead of the competition"
       ],
-      "closing": "Let's turn your ideas into a powerful online presence."
-    }
+      "closing": "Not a prototype. A working digital product you can rely on."
+      }
   },
   "featured": {
     "title": "Featured Projects",

@@ -5,7 +5,7 @@ import useTranslation from "../../hooks/useTranslation";
 export default function OfferSection() {
   const { t } = useTranslation();
 
-  const services = t("offer.whatIOffer.services");
+  const services = t("offer.whatIOffer.items");
 
   return (
     <section className={styles.offerSection} id="about">
@@ -42,7 +42,7 @@ export default function OfferSection() {
       <div className={styles.content}>
         <div className={styles.text}>
           <h2>{t("offer.whatIOffer.title")}</h2>
-          <p>{t("offer.whatIOffer.text")}</p>
+          {/* <p>{t("offer.whatIOffer.text")}</p> */}
           <ul>
             {Array.isArray(services) &&
               services.map((item, i) => <li key={i}>{item}</li>)}
